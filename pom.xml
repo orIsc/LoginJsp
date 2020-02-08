@@ -15,17 +15,11 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-<plugin>
-        <groupId>org.apache.maven.plugins</groupId>
+      <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
         <configuration>
-          <webResources>
-            <resource>
-              <!-- this is relative to the pom.xml directory -->
-              <directory>resource2</directory>
-            </resource>
-          </webResources>
+          <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
       	<plugin>
