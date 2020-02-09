@@ -26,7 +26,7 @@
         <artifactId>Login_Project</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <configuration>
-          <warSourceDirectory>Login_Project</warSourceDirectory>
+          <warSourceDirectory>Login_Project-0.0.1-SNAPSHOT</warSourceDirectory>
         </configuration>
       </plugin>		
     </plugins>
