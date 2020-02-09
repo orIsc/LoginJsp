@@ -26,7 +26,7 @@
         <artifactId>Login_Project</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <configuration>
-          <warSourceDirectory>Login_Project</warSourceDirectory>
+          <warSourceDirectory>/Login_Project</warSourceDirectory>
         </configuration>
       </plugin>
       	<plugin>
@@ -36,7 +36,7 @@
 		<configuration>
 			<url>http://localhost:8080/manager</url>
 			<server>TomcatServer</server>
-			<path>/Login_Project/index.jsp</path>
+			<path>/Login_Project</path>
 		</configuration>
 	</plugin>			
     </plugins>
