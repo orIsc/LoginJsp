@@ -28,17 +28,7 @@
         <configuration>
           <warSourceDirectory>/Login_Project</warSourceDirectory>
         </configuration>
-      </plugin>
-      	<plugin>
-		<groupId>org.apache.tomcat.maven</groupId>
-		<artifactId>tomcat8-maven-plugin</artifactId>
-		<version>2.2</version>
-		<configuration>
-			<url>http://localhost:8080/manager</url>
-			<server>TomcatServer</server>
-			<path>/Login_Project</path>
-		</configuration>
-	</plugin>			
+      </plugin>		
     </plugins>
   </build>
 </project>
