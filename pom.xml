@@ -19,7 +19,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
         <configuration>
-          <warSourceDirectory>WebContent</warSourceDirectory>
+          <warSourceDirectory>target</warSourceDirectory>
         </configuration>
       </plugin>	
     </plugins>
