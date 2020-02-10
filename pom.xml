@@ -2,7 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Login_Project</groupId>
   <artifactId>Login_Project</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -24,7 +23,6 @@
       </plugin>
        <plugin>
         <artifactId>Login_Project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
         <configuration>
           <warSourceDirectory>Login_Project</warSourceDirectory>
         </configuration>
