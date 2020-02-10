@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Login_Project</groupId>
   <artifactId>Login_Project</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>one</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -21,17 +21,7 @@
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
-      </plugin>	
-      <plugin>
-    <groupId>org.apache.tomcat.maven</groupId>
-    <artifactId>tomcat8-maven-plugin</artifactId>
-    <version>2.2</version>
-    <configuration>
-        <url>http://localhost:8080/manager/text</url>
-        <server>TomcatServer</server>
-        <path>/Login_Project</path>
-    </configuration>
-</plugin>      
+      </plugin>	    
     </plugins>
   </build>
 </project>
