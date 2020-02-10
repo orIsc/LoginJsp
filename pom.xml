@@ -21,19 +21,7 @@
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
-      </plugin>	  
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-source-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>attach-sources</id>
-            <goals>
-              <goal>war</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>  
+      </plugin>	   
     </plugins>
   </build>
 </project>
