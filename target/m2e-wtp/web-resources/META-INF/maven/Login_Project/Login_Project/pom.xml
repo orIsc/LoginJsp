@@ -21,14 +21,7 @@
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
-      </plugin>
-       <plugin>
-        <artifactId>Login_Project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <configuration>
-          <warSourceDirectory>Login_Project</warSourceDirectory>
-        </configuration>
-      </plugin>		
+      </plugin>	
     </plugins>
   </build>
 </project>
