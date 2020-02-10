@@ -31,8 +31,7 @@
         <server>TomcatServer</server>
         <path>/Login_Project</path>
     </configuration>
-</plugin>
-      
+</plugin>      
     </plugins>
   </build>
 </project>
